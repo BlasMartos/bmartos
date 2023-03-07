@@ -258,13 +258,14 @@ flex-wrap: wrap;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
     .fill_agraiments{
     color: whitesmoke;
     text-align: center;
-    margin-left: 125px;
-    margin-right: 125px;
+    width: 34%;
     font-size: 25px;
+    margin: 2%;
     padding: 4%;
     background-color: rgb(88, 88, 88);
     border-radius: 30px;
