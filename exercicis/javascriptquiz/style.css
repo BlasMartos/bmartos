@@ -1,0 +1,135 @@
+.first_div{
+    display: flex;
+    justify-content: center;
+}
+#big_div{
+    transition: width 0.5s, height 0.5s;
+    background-color: #ffbac7 ;
+
+    margin-top: 8%;
+    width: 400px;
+    padding: 4%;
+    border-radius: 20px;
+    padding-top: 2%;
+    border: 2px solid black;
+}
+
+.title_div{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.quiz_div{
+  display: flex;
+  flex-direction: column;
+  }
+
+#timer{
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#timer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.button_div{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+#start_button{
+    font-size: 40px;
+    border-radius: 10px;
+    font-family: italic;
+
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.move-up {
+  position: absolute;
+  top: 1%;
+}
+
+#quiz_div{
+ display: none;
+ flex-direction: column;
+
+}
+
+#questionsandimage{
+display: flex;
+}
+#menu_div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+
+#exercice_div{
+display: flex;
+flex-direction: column;
+width: 80%;
+margin-left: 5%;
+}
+
+
+#respuestas{
+margin-left: 5%;
+
+}
+/*Imatges*/
+.imatges{
+    height: 450px;
+    width: 475px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.menu_buttons{
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.respostes{
+  font-size: 25px;
+}
+
+.button_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#image_javascript{
+  margin-bottom: 7%;
+  height: 150px;
+  width: 300px;
+}
+
+#final_div{
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#result{
+font-size: 30px;
+}

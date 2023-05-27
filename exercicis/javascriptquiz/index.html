@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quiz</title>
+</head>
+
+<header>
+
+</header>
+
+<body>
+    <div class="first_div">
+        <div id="big_div">
+            <div class="title_div">
+                <h1>JavaScript Quiz</h1>
+                
+            </div>
+            <div class="div_timer">
+                <div id="timer">10:00</div>
+            <div id="quiz_div">
+              
+                <div id="questionsandimage">
+                    <div id="imatge_div">
+                        <img class="imatges" id="image" src="imatges/1.png" alt="Image">
+                    </div>
+
+                    <div id="exercice_div">
+                        <div id="exercice">
+                            <h2 id="question">1: Qué mostrará?</h2>
+                        </div>
+
+                        <div id="respuestas">
+                            <input type="radio" id="resposta_1" name="respostes" value="NaN" onclick="selectAnswer(0)">
+                            <label for="resposta" class="respostes" id="resposta1">NaN</label>
+                            <br>
+                            <br>
+                            <input type="radio" id="resposta_2" name="respostes" value="15" onclick="selectAnswer(1)">
+                            <label for="resposta" class="respostes" id="resposta2">15</label>
+                            <br>
+                            <br>
+                            <input type="radio" id="resposta_3" name="respostes" value="105" onclick="selectAnswer(2)">
+                            <label for="resposta" class="respostes" id="resposta3">105</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu_div">
+                    <button class="menu_buttons" onclick="back()">Back</button>
+                    <button class="menu_buttons" onclick="finish()">Finish</button>
+                    <button class="menu_buttons" onclick="next()">Next</button>
+                </div>
+
+            </div>
+
+
+
+            <div class="button_div">
+                <div>
+                    <img id="image_javascript" src="imatges/JavaScript-logo.png" alt="Image">
+                </div>
+              <div>
+                <button id="start_button" onclick="startQuiz()">Start</button>
+              </div>
+              
+            </div>
+
+            <div id="final_div">
+                <div id="score"><H1>Score</H1></div>
+
+                <div id="result"></div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+<script src="code.js"></script>
+
+</html>
